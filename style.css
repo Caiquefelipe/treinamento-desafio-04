@@ -1,0 +1,50 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.fundo {
+    background-color: rgb(134, 129, 129);
+    height: 100vh;
+    box-sizing: border-box;
+    color: azure;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.calculadora {
+    background-color: rgb(54, 53, 53);
+    padding: 3.9em;
+    border-radius: 2em;
+}
+
+#display {
+    display: flex;
+    align-items: center; 
+    border-radius: 1em;
+    justify-content: center; 
+    padding: 1.9em;
+    margin-left: 0.5em;
+    text-align: center;
+}
+
+.botoes {
+    margin-top: 1em;
+    
+}
+
+.linha {
+    display: flex;
+    justify-content: center; 
+}
+
+button {
+    width: 60px;
+    height: 60px;
+    padding: 0;
+    font-size: 24px;
+    border-radius: 10px;
+    cursor: pointer;
+}
